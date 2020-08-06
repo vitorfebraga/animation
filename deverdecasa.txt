@@ -1,0 +1,5 @@
+DEVER DE CASA
+=============
+
+usando a imagem do circuito do link abaixo, faça uma circulo percorrer o circuito respeitando a direção de largada.
+https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Jacarepagu%C3%A1-oval.svg/500px-Jacarepagu%C3%A1-oval.svg.png
