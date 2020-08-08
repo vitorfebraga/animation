@@ -1,28 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-	<title>JS Advanced</title>
-	<meta charset="utf-8"/>
+    <title>CIRCUITO -  DEVER DE CASA</title>
 </head>
 <body>
-	<!-- baixando as imagens para acelerar a primeira transição -->
-	<img src="urso1.png" style="display:none;"/>
-	<img src="urso2.png" style="display:none;"/>
-	<img src="urso3.png" style="display:none;"/>
-	
-	<div 
-	style="background-image: url('fundo1.png'); width: 498px; height: 269px;">
-	<!-- objeto de imagem a ser trabalhado -->
-		<img id="img-bolinha" src="bolinha1.png" width="30px" alt="animação" onclick="roda();"/>
-	</div>
-	<hr/>
-	<input type="button" onclick="paraurso();" value="Parar"/>
+    <div style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Jacarepagu%C3%A1-oval.svg/500px-Jacarepagu%C3%A1-oval.svg.png');width: 498px; height: 269px;">
 
+ 
+
+        <img src="https://w7.pngwing.com/pngs/492/997/png-transparent-round-red-icon-computer-icons-red-polka-dot-red-button-icon-color-sphere-website-thumbnail.png" 
+        width="15" height="15" id="bolinha" onclick="anda();">
+        
+    </div>
 </body>
 <script type="text/javascript" src="main.js"></script>
 </html>
-<!--
-	deverá aparecer o urso parado (urso1.png) e depois de 3 segundo ficará alternando entre o urso2.png e urso3.png para dar a impressão do urso 
-	estar andando.
-	setTimeout(), setInterval(). temporizadores da WOM (window object manager), ou seja, um método do objeto JANELA.
--->
